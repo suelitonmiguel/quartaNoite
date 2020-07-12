@@ -23,6 +23,7 @@ class CreateAmbientesTable extends Migration
             $table->integer('temperatura_maxima');
             $table->timestamps();
             $table->softDeletes();
+            //teste
         });
     }
 
